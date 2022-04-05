@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Allan's Green Screen Project</title>
+	<link rel="stylesheet" href="css/greenscreen.css" type="text/css">
+</head>
+<body>	
+	<div class="header">
+		<h1 id="PageTitle">Allan's Green Screen Web Page</h1>
+		<em id="PageDescription">In this web page you will be able to merge a background to the foreground image taking away the green background</em>
+		<nav>
+			<p><span id="note">*Note*</span><span>&#10145;&#65039;</span><span id="clickable">Links are clickable!</span></p>
+			<span id="menutitle">Menu Links Below:</span><p><span>|<a href="practicejs.html">JS Integration on Web Page</a>|</span><p><span>|<a href="index.html">HTML & CSS Web Page</a>|</span></p><p><span>|<a href="todolist.html">TO DO List</a>|</span></p><p><span>|<a href="grayscale.html">Grayscale Project</a>|</span></p><p><span>|<a href="canvas.html">Paint Canvas Starter</a>|</span></p>
+		</nav>
+	</div>
+
+<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+
+<h1 id="greenscreenh1"> Green Screen Online Web Page </h1><p class="greenscreenp"><span><a href="https://codepen.io/maxokinq/full/bGaadVR" target="_blank">Click Here</a> to see the Green Screen Project on <b>CodePen</b></span></p>
+
+<div id="canvas">
+<canvas id="fgcan">
+</canvas>
+  <canvas id="bgcan">
+</canvas>
+</div>
+<div class="fg">
+<p>Foreground:<input type="file" multiple="false" accept="image/*" id="fgfile" onchange="loadForegroundImage()"> 
+</p>
+</div>
+<div class="bg">
+<p>Background:<input type="file" multiple="false" accept="image/*" id="bgfile" onchange="loadBackgroundImage()"> 
+</p>
+</div>
+<div class="buttons">
+  <p>
+    <input type="button" id="button" value="Create Composite" onclick="doGreenScreen()">
+     <input type="button" id="button" value="Clear Canvases" onclick="clearCanvas()">
+    <input type="button" id="download" value="Download">
+  </p>
+</div>
+
+<div class="lastnotee">
+<p id="lastnote"> I got this project done as a task from the Programming Foundations with JavaScript, HTML & CSS course from Coursera from <b>Duke University</b>.</p>
+</div>
+
+
+<script src="js/greenscreen.js"></script>
+
+</body>
+</html>

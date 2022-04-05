@@ -1,0 +1,125 @@
+*{
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-family: "Arial";
+}
+
+body {
+	background-color: #FAF0E6;
+}
+
+/* Header Editing */
+
+.header {
+	width: 100%;
+	text-align: center;
+	border-bottom: 2.5px solid #FF6347;
+	background-color: #FFF8DC;
+}
+
+#PageTitle {
+	font-family: Monospace;
+	color: #8B4513;
+	font-size: 3.5em;
+}
+
+#PageDescription {
+	color: #000080;
+	font-size: 1.2em;
+	
+}
+
+/* NAV MENU */
+
+nav {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+nav span {
+	color: orangered;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 18px;
+	
+
+}
+nav a {
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+	font-family: monospace;
+	border-bottom: seagreen 0.125em solid;
+}
+
+nav a:hover {
+	color: black;
+	border-bottom: hotpink 0.125em solid;
+	font-style: italic;
+}
+
+nav p {
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: darkgoldenrod;
+}
+
+#note {
+	color: black;
+	font-family: monospace;
+	border: black 0.125em solid;
+	background-color: white;
+}
+
+#clickable {
+	font-size: 20px;
+}
+
+/* CANVAS CSS Start Here */
+
+canvas {
+  border: 1px solid gray
+}
+
+#canvasx2 {
+	text-align: center;
+}
+
+#canvasdiv {
+	text-align: center;
+}
+
+#canvash1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#canvasdiv p {
+	margin-bottom: 15px;
+}
+
+input {
+	margin-bottom: 28px;
+}
+
+#brushes {
+	margin-top: 10px;
+}
+
+#clear, #download {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#clear {
+	margin-right: 20px;
+}
+
+#lastnote{
+	text-align: center;
+	border: 2px solid black;
+	padding: 3px;
+	margin: 3px;
+}
+
+/* CANVAS CSS Finish Here */

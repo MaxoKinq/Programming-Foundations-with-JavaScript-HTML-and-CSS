@@ -1,0 +1,147 @@
+
+
+
+/* remove indentation of list items */
+
+ul {
+  padding-left: 0;
+}
+
+
+/* remove traditional bullet from front of list items */
+/* Step 3 below here */
+li {
+  list-style-type: none;
+  background-color: #eee;
+  border: 1px solid #c3c3c3;
+  padding: 10px 0px 10px 5px;
+  font-size: 20px;
+}
+
+
+/* Step 5 below here */
+.done {
+  background-color: green;
+  font-weight: bold;
+}
+
+.remove {
+  background-color: red;
+  font-weight: bold;
+}
+
+
+/* mark task as finished */
+/* Step 6 below here */
+li.finished {
+  background-color: gray;
+  color: white;
+  text-decoration: line-through;
+}
+
+input[type="text"] {
+  font-size: 18px;
+  width: 75%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="button"] {
+  font-size: .75em;
+  margin: -6px 4px 0px 0px;
+  color: black;
+  font-weight: bold;
+}
+
+#addButton {
+  padding: 10px;
+}
+
+/* Step 10 below here */
+.yellowbackground {
+  background-color: yellow;
+}
+
+/*#divp {
+  text-align: center;
+  font-size: 21.5px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}*/
+
+
+/* Step 12 below here */
+#divabout {
+  text-align: center;
+  widht: 350px;
+  margin: 10px;
+}
+
+#divp {
+  text-align: center;
+  font-size: 21.5px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  width: 330px;
+}
+
+/* MY CODE BELOW */
+
+#myHeader {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 15px;
+  border-bottom: orangered 0.125em solid;
+}
+
+#tasks {
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+/* MY CODE ABOVE */
+
+.wrapper{
+  background-color: white;
+
+}
+
+#about {
+  display: inline-block;
+  padding: 5px;
+  width: 65px;
+  height: 32px;
+  font-size: .85em;
+}
+
+.important {
+  background-color: lightblue;
+}
+
+li.important {
+  background-color: lightblue;
+}
+
+#note2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#note2 p {
+  font-family: monospace;
+  font-size: 1.25em;
+
+}
+
+#note2 b {
+  font-size: .70em;
+}
+
+
+/* EDIT TO THE ADD BUTTON FOR MOBILE DEVICE */
+#addButton {
+  width: 76px;
+  height: 45px;
+  font-size:20px;
+  text-align: center;
+}

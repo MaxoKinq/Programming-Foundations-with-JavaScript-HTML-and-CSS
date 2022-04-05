@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Allan's Canvas Painter</title>
+	<link rel="stylesheet" href="css/canvas.css" type="text/css">
+</head>
+<body>	
+	<div class="header">
+		<h1 id="PageTitle">Allan's Paint Canvas Starter</h1>
+		<em id="PageDescription">In this web page you will be able to draw inside the canvas. Go for it future VANGOH!</em>
+		<nav>
+			<p><span id="note">*Note*</span><span>&#10145;&#65039;</span><span id="clickable">Links are clickable!</span></p>
+			<span id="menutitle">Menu Links Below:</span><p><span>|<a href="practicejs.html">JS Integration on Web Page</a>|</span><p><span>|<a href="index.html">HTML & CSS Web Page</a>|</span></p><p><span>|<a href="todolist.html">TO DO List</a>|</span></p><p><span>|<a href="grayscale.html">Grayscale Project</a>|</span></p><p><span>|<a href="greenscreen.html">Green Screen Project</a>|</span></p>
+		</nav>
+	</div>
+<div id="canvasdiv">
+<h1 id="canvash1"> Paint your own picture </h1><p><span><a href="https://codepen.io/maxokinq/full/zYpPgbm" target="_blank">Click Here</a> to see the canvas painter on <b>CodePen</b></span></p>
+<p><b>Set width</b> <input type="text" onchange="setWidth()" id="setwidth">  <b>Set heigth</b>  <input type="text" onchange="setHeight()" id="setheight"></p>
+</div>
+<!-- PART 6 ALSO HERE -->
+<div id="canvasx2">
+<canvas id="canvas1" onmousedown="startPaint()" onmousemove="doPaint(event.offsetX, event.offsetY)" onmouseup="endPaint()">
+</canvas>
+
+<!-- PART 7 ALSO HERE -->
+ <!-- PART 8 ALSO HERE -->
+ <!-- PART 9 ALSO HERE -->
+ <div id="brushes">
+<p><b>Brush color </b><input type="color" value="#000" onchange="changeColor(this.value)"><b>   Brush Size</b><input type="range" id="sizeInput" min="1" max="50" value="50" oninput="resizeBrush(this.value)"><output id="sizeOutput">50</output> </p>
+  
+<!-- PART 10  -->
+
+<p><input type="button" id="clear" value="Clear Canvas" onclick="clearCanvas()">
+<input type="button" id="download" value="Download">
+ </p>
+</div>
+</div>
+
+<div>
+<p id="lastnote"> I got this project done as a task from the Programming Foundations with JavaScript, HTML & CSS course from Coursera from <b>Duke University</b>.</p>
+</div>
+
+<script src="js/canvas.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,406 @@
+/* Complete page adjustments */
+
+*{
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-family: "Arial";
+}
+
+body {
+	background-color: #FAF0E6;
+}
+
+/* Header Editing */
+
+.header {
+	width: 100%;
+	text-align: center;
+	border-bottom: 2.5px solid #FF6347;
+	background-color: #FFF8DC;
+}
+
+#PageTitle {
+	font-family: Monospace;
+	color: #8B4513;
+	font-size: 3.5em;
+}
+
+#PageDescription {
+	color: #000080;
+	font-size: 1.2em;
+	
+}
+
+/* Editing Body */
+
+.container{
+ position: relative;
+ top:5px;
+ margin: 15px; 
+}
+
+.wrapper {
+	width: 100%;
+	border: 2px solid black;
+	padding: 5px;
+}
+
+.item {
+	margin: 5px;
+}
+
+.top5h2 {
+	font-size: 26px;
+	text-align: center;
+	color: #FF8C00;
+	text-shadow: 2px 1px black;
+	margin-top: 2px;
+	margin-bottom: 10px;
+	width: 335px ;
+	border: 2px solid #FF8C00;
+	border-radius: 10px 10px;
+	background-color: #4B0082;
+}
+
+.firstLi{
+	margin-top: 2px;
+	margin-bottom: 10px;
+	width: 335px ;
+	border: 2px solid #FF8C00;
+	border-radius: 3px 7px;
+	background-color: #4B0082;
+
+}
+
+.firstLi li {
+	list-style-position: inside;
+	font-size: 20px;
+	color: #FF8C00;
+	text-shadow: 2px 1px black
+	
+}
+
+.item2 {
+	font-size: 2em;
+}
+
+.formath2 {
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border-top: 2px solid black;
+}
+
+.formatp {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.link {
+	border-top: 2px solid black;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.linkp {
+	margin-top: 25px;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+.linkcenter {
+	margin-top: 15px;
+	text-align: center;
+	font-size: 2em;
+
+}
+
+
+.item3 {
+	margin: 1.5px;
+	text-align: center;
+	border-top: 2px solid black;
+}
+
+.item3 p {
+	margin-top: 7.5px;
+	margin-bottom: 15px;
+	font-size: 1.4em;
+}
+
+.bigdivlists {
+	text-align: center;
+	vertical-align: top;
+}
+
+.bigdivlists h2 {
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 25px;
+	border-top: 2px solid black;
+	text-decoration: underline;
+}
+
+.itemlist1 {
+	margin-right: 25px;
+	padding-right: 5px;
+	list-style-position: inside;
+	color: #000000;
+}
+
+.itemlist1 h4 {
+	margin-bottom: 16px;
+	font-size: 1.1em;
+}
+
+.itemlist2 {
+	list-style-position: inside;
+	margin-right: 25px;
+	color: #000000;
+}
+
+.itemlist2 h4 {
+	font-size: 1.1em;
+	margin-top: 20px;
+	margin-bottom: 16px;
+}
+
+.itemlist3 {
+	padding-left: 5px;
+	list-style-position: inside;
+	border-bottom: 2px solid black;
+	color: #000000;
+	padding-bottom: 16px;
+}
+
+.itemlist3 h4 {
+	font-size: 1.1em;
+	margin-top: 20px;
+	margin-bottom: 16px;
+}
+
+/* Table Styling */
+
+table {
+	margin-top: 15px;
+	border: 1px solid black;
+}
+
+td, th {
+	font-size: 25px;
+	padding: 4px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.tablediv {
+	text-align: center;
+}
+
+.tablediv h4 {
+	margin-top: 16px;
+	font-size: 2em;
+}
+
+/* NAV MENU */
+
+nav {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+nav span {
+	color: orangered;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 18px;
+	
+
+}
+nav a {
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+	font-family: monospace;
+	border-bottom: seagreen 0.125em solid;
+}
+
+nav a:hover {
+	color: black;
+	border-bottom: hotpink 0.125em solid;
+	font-style: italic;
+}
+
+nav p {
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: darkgoldenrod;
+}
+
+#note {
+	color: black;
+	font-family: monospace;
+	border: black 0.125em solid;
+	background-color: white;
+}
+
+#clickable {
+	font-size: 20px;
+}
+
+/* JS Integration CSS Start Here */
+
+.itemjs {
+	margin: 0 auto;
+	display: flex;
+justify-content: center;
+
+}
+
+#div1 {
+	width:  160pt;
+	padding: 5pt;
+	margin: 10pt;
+	border: 1px solid lightgray;
+	background-color: lightsteelblue;
+}
+
+#div1h1 {
+	color: darkblue;
+}
+
+#div2 {
+	width:  160pt;
+	padding: 5pt;
+	margin: 10pt;
+	border: 1px solid lightgray;
+	background-color: lightpink;
+}
+
+#div2h2 {
+	color: deeppink;
+}
+
+#buttonswithdivs{
+	text-align: center;
+}
+
+#button1 {
+	font-size: 32px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-color: deepskyblue;
+}
+
+#button2 {
+	font-size: 32px;
+	margin-top: 10px;
+	margin-bottom: 18px;
+	border-color: deeppink;
+}
+
+#extra {
+	text-align: center;
+}
+
+#extra h1 {
+	color: darkcyan;	
+	margin-bottom: 15px;
+}
+
+#extrachallenge {
+	font-size: 25px;
+	border-color: goldenrod;
+	margin-bottom: 12px;
+}
+
+#extrap {
+	margin-top: 5px;
+	font-size: 25px;
+	font-family: monospace;
+	font-weight: bold;
+	margin-bottom: 10px;
+
+}
+
+#js3 {
+	padding-top: 10px;
+	border-top: red 1px solid;
+	text-align: center;
+
+}
+
+#js3 h2 {
+	color: gray;
+	text-shadow: .5px .5px black;
+	font-size: 29px;
+	margin-bottom: 10px;
+}
+
+#js3 p {
+	margin: 5px;
+	font-size: 20px;
+}
+
+.deadpool {
+	color: black;
+	font-weight: bold;
+	background-color: red;
+	text-align: center;
+}
+
+.greenlighter {
+	color: greenyellow;
+	font-weight: bold;
+	background-color: black;
+	text-align: center;
+}
+
+
+.bottomborderdiv {
+	margin: 10px;
+	border-bottom: red 1px solid;
+	border-top: red 1px solid;
+}
+
+#js3 input {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#menutitle {
+	font-size: 30px;
+	color: magenta;
+	font-weight: bold;
+}
+
+/* CANVAS CSS START HERE */
+
+canvas {
+	width: 200pt;
+	height: 100pt;
+	margin: 10px;
+	border: 1px solid lightgray;
+}
+
+.canvasbuttons {
+	border-bottom: red 1px solid;
+	margin-top: 9px;
+}
+
+.canvash1 {
+	margin-top: 10px;
+}
+
+.canvash1 h1 {
+	margin-bottom: 10px;
+}
+
+#canvasp {
+	margin-top: 20px;
+}
+
+#canvasp p {
+	font-size: 13px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Allan's Interactive Web Page</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div class="header">
+		<h1 id="PageTitle">Allan Interactive Page</h1>
+		<em id="PageDescription">In this web page you will see me practicing with JavaScript codes and how I will integrate them into a web page.</em>
+		<nav>
+			<p><span id="note">*Note*</span><span>&#10145;&#65039;</span><span id="clickable">Links are clickable!</span></p>
+			<span id="menutitle">Menu Links Below:</span><p><span>|<a href="index.html">HTML & CSS Web Page</a>|</span><p><span>|<a href="todolist.html">TO DO List</a>|</span></p><p><span>|<a href="canvas.html">Paint Canvas Starter</a>|</span></p><p><span>|<a href="grayscale.html">Grayscale Project</a>|</span></p><p><span>|<a href="greenscreen.html">Green Screen Project</a>|</span></p></span></p>
+		</nav>
+	</div>
+<div class="container">
+<div class="wrapper">
+	<div class="itemjs">
+		<div id="div1"><h1 id="div1h1">Here is div 1</h1>
+		</div>
+		<div id="div2"><h1 id="div2h2">Here is div 2</h1>
+		</div>
+	</div>
+	<div id="buttonswithdivs">
+	<input type="button" value="HTML Button" onclick="alert(`This is a button with an onclick alert only in HTML, without JS integration`)" id="button1">
+
+	<input type="button" value="JavaScript Button" onclick="dochange()" id="button2">
+	</div>
+	<div id="extra">
+	<h1>Extra Challenge!</h1>
+	<input type="button" value="Extra Challenge Button" onclick="extrachallenge()" id="extrachallenge">
+	<p id="extrap"> </p>	
+	</div>
+	<div id="js3">
+		<h2> Here we will change pages interactively </h2>
+		<p id="world"> Hello world !</p>
+		<p id="hay"> How are you? </p>
+
+		<input type="button" value="Change to Spanish" onclick="spanish()" id="changelanguage">
+		<input type="button" value="Change to English" onclick="english()" id="english" style="display: none;">
+		<input type="button" value="Highlight Txt" onclick="backgrounds()" id="backgrounds" style="inline">
+		<input type="button" value="Un-Highlight Txt" onclick="rbackgrounds()" id="rbackgrounds" style="display: none;">
+		<div class="bottomborderdiv"> 
+			<!--Just to create a bottom border and top border -->
+			<h1>TO DO List</h1>
+			<a href="todolist.html"> Click here</a><span> to go to the To Do List assignment</span>
+		</div>
+		<canvas id='canv1'>
+		</canvas>
+		<!-- <canvas id='canv2'>
+		</canvas> --> <!-- **I didn't use this canvas** -->
+		<div>
+		<input type="button" value="Make Red" onclick="doRed()">
+		<input type="button" value="Make Blue" onclick="doBlue()">
+		<div class="canvasbuttons"><!-- *Div to create a border* --></div>
+	</div>
+	<canvas id='canv2'>
+	</canvas>
+	<div>
+		<input type="color" value="#001A57" id="clr" onchange="docolor()">
+		<input type="color" value="#001A57" id="clr2" onclick="docolor2()">
+		<p><span>Draw a square slider  </span><input type="range" min="10" max="100" value="10" id="sldr" oninput="dosquare()"></p>
+		<div class="canvasbuttons"><!-- *Div to create a border* --></div>
+		<div class="canvash1">
+			<h1> Paint Canvas Starter </h1>
+			<p><a href="canvas.html"> Click here</a><span> to go to the canvas painter</span></p><div id="canvasp"><p>I got this project done as a task from the Programming Foundations with JavaScript, HTML & CSS course from Coursera from <b>Duke University</b>.</p></div>
+
+		</div>
+		<div class="canvasbuttons"><!-- *Div to create a border* --></div>
+		<div class="canvash1">
+			<h1> Grayscale Project  </h1>
+			<p><a href="grayscale.html"> Click here</a><span> to go to the Grayscale Project</span></p><div id="canvasp"><p>I got this project done as a task from the Programming Foundations with JavaScript, HTML & CSS course from Coursera from <b>Duke University</b>.</p></div>
+
+		</div>
+		<div class="canvasbuttons"><!-- *Div to create a border* --></div>
+		<div class="canvash1">
+			<h1> Green Screen on Web Page  </h1>
+			<p><a href="greenscreen.html"> Click here</a><span> to go to the Green Screen Project</span></p><div id="canvasp"><p>I got this project done as a task from the Programming Foundations with JavaScript, HTML & CSS course from Coursera from <b>Duke University</b>.</p></div>
+
+		</div>
+
+	</div>
+	</div>
+	</div>
+    </div>
+	</div>
+	</div>
+	</div>
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
+
+<!--
+
+
+ -->
