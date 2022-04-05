@@ -23,7 +23,7 @@ function makeGray(){
 
 // Download Button //
 
- canvas = document.getElementById("canv2");
+var canvas = document.getElementById("canv2");
 var download = document.getElementById("download");
 download.addEventListener('click', function (e) {
 console.log(canvas.toDataURL());
